@@ -52,7 +52,6 @@
         }
 
         .tiles-layout {
-            grid-row: 2;
             display: flex;
             flex-direction: column;
             gap: 30px;
@@ -101,7 +100,7 @@
 
         .tile {
             width: 400px;
-            height: 200px;
+            height: fit-content;
             background-color: rgb(255 255 255 / 60%);
             backdrop-filter: contrast(0.8);
             padding: 20px;
@@ -191,11 +190,53 @@
             <div class="tiles-layout">
                 <div class="tile">
                     <h3 style="font-weight: 300;">Any questions or issues ?</h3>
-                    <p style="font-weight: 200; padding-left: 5px;">Feel free to contact me</p>
+                    <p style="font-weight: 200;">Feel free to contact me</p>
 
-                    <div">
-                        <p style="font-weight: 500; padding-top: 20px;">Email</p>
-                        <p style="font-weight: 200; padding-left: 5px;">timespace-app@gmx.de</p>
+                    <div>
+                        <p style="font-weight: 500; padding-top: 10px;">Email</p>
+                        <p style="font-weight: 200;">timespace-app@gmx.de</p>
+                    </div>
+                </div>
+
+                <div class="tile">
+                    <h3 style="font-weight: 500;">Privacy</h3>
+
+                    <div>
+                        <p style="font-weight: 200;">
+                            By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+                        </p>
+
+                        <div style="padding-top: 10px;">
+                            <b>Information Collection and Use</b>
+                            <p style="font-weight: 200;">
+                                Time Space does not collect any personal information.
+                            </p>
+                        </div>
+
+                        <div style="padding-top: 10px;">
+                            <b>Third Party Access</b>
+                            <p style="font-weight: 200;">
+                                Time Space does not access any third party apps or data.
+                            </p>
+                        </div>
+                        
+                        <div style="padding-top: 10px;">
+                            <b>Changes</b>
+                            <p style="font-weight: 200;">
+                                This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+                            </p>
+
+                            <p style="font-weight: 200;">
+                                This privacy policy is effective as of 2024-05-09.
+                            </p>
+                        </div>
+
+                        <div style="padding-top: 10px;">
+                            <b>Contact Us</b>
+                            <p style="font-weight: 200;">
+                                If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact us via email at timespace-app@gmx.de.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
